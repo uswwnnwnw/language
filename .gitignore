@@ -1,0 +1,28 @@
+# 1. 物理环境过滤
+.vscode-server/
+.cache/
+.nv/
+.vscode/
+.ollama/
+.copilot/
+.dotnet/
+.landscape/
+.local/
+
+# 2. 隐私与历史（最核心）
+.bash_history
+.git-credentials
+.wget-hsts
+.motd_shown
+
+# 3. 编译垃圾
+__pycache__/
+*.pyc
+*.exe
+*.o
+*.out
+*.bin
+*.gguf
+
+# 4. node相关（备用）
+node_modules/
