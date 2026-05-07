@@ -1,0 +1,5 @@
+stu = (input("输入"))
+old = (input("被替换"))
+new = (input("新"))
+out = stu.replace(old,new,1)
+print(out)
